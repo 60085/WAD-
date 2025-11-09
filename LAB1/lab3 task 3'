@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="program.css">
+</head>
+<body>
+   <div class="header">
+    <h1>Travel Pakistan</h1>
+  </div>
+
+  <div class="main">
+
+    <div class="cities">
+      <a href="#">Lahore</a> |
+      <a href="#">Islamabad</a> |
+      <a href="#">Hunza</a> |
+      <a href="#">Skardu</a> |
+      <a href="#">Karachi</a>
+    </div>
+
+    <h2 class="main-heading">Discover the Beauty of Pakistan</h2>
+    
+    <p class="description">
+      Pakistan is full of natural beauty, rich culture, and historic landmarks.
+      From the snowy peaks of the north to the beaches of Karachi, there’s something for every traveler.
+      Visit the Mughal architecture of Lahore, the calm valleys of Swat, and the modern capital Islamabad.
+      It’s an unforgettable journey!
+    </p>
+
+    <div class="image">
+      <img src="pakistan2.png" alt="Pakistan Map">
+    </div>
+
+  </div>
+ 
+  <div class="footer">
+    <p>© 2025 Travel Pakistan - Explore the Unseen</p>
+  </div>
+
+</body>
+</html>
+#css 
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+.header {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.cities {
+    
+      margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.cities a {
+  color: #006400;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.cities a:hover {
+  text-decoration: underline;
+}
+
+.main-heading {
+  color: #004d00;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+
+.description {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+
+
+.image img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin: 30px;
+}
