@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1>DOM Manipulation Practice</h1>
+
+ 
+  <p class="para">This is the first paragraph.</p>
+  <p class="para">This is the second paragraph.</p>
+
+ 
+  <ul>
+    <li>apple</li>
+    <li>banana</li>
+    <li>cherry</li>
+  </ul>
+<script src="script.js"></script>
+
+</body>
+</html>
+#js 
+
+let paragraphs = document.querySelectorAll(".para");
+paragraphs.forEach(p => {
+  p.style.color = "red";
+});
+
+let paragraph = document.querySelector(".para");
+paragraph.innerHTML = "This is <b>bold</b> text inside a paragraph.";
+
+
+let p = document.querySelectorAll(".para")[1];
+p.innerText = "This is new plain text without HTML tags.";
+
+let items = document.querySelectorAll("li");
+items.forEach(item => {
+  item.innerText = item.innerText.toUpperCase();
+});
