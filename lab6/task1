@@ -1,0 +1,15 @@
+let num= 674849575947557499;
+console.log(typeof (num));-0
+   
+
+let a="123";
+console.log(typeof (a));
+let b=parseInt(a);
+console.log(a);       
+console.log(typeof (b));
+
+let str="678.08";
+console.log(typeof (str));
+let c=parseFloat(str);
+console.log(str);       
+console.log(typeof (c));
