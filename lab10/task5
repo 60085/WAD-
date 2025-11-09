@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="text">This paragraph will hide and show when you click the button.</p>
+  <button id="toggleBtn">Hide/Show</button>
+
+  <script src="task5.js"></script>
+</body>
+</html>
+let para = document.getElementById("text");
+let btn = document.getElementById("toggleBtn");
+
+btn.onclick = function() {
+  if (para.style.display === "none") {
+    para.style.display = "block"; 
+  } else {
+    para.style.display = "none";  
+  }
+};
