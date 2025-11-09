@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="list-style-type: circle;">
+          <li>Computer Science</li>
+ <ul><li> CS-4</li> </ul>
+ <li>Computer Arts</li>
+ <ul><li>BCA-5</li></ul>
+ <li>Software Engineering</li> </ul>
+
+
+<h2>Example of ordered HTML list</h2>
+ <ol type="A">
+ <li>BCA-1</li>
+ <li>BCA-2</li>
+ <li>BCA-5</li>
+ </ol>
+
+<fieldset>
+ <legend>Personal Info</legend>
+ <input type="text" placeholder="Name">
+ </fieldset>
+
+
+ <details>
+ <summary>what is html</summary> 
+ <p>HTML stands for HyperText Markup Language. It structures the content of a 
+webpage.</p>
+ </details>
+           
+<ol>
+<ol><li>ingrediants</li></ol>
+<li>hhhh</li>
+<li>hfhhfhfh</li>
+<li>fhufuff</li>
+</ol>
+
+</body>
+</html>
