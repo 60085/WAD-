@@ -1,0 +1,15 @@
+const instagramProfile = {
+  username: "iram.fatima",
+  displayName: "~nahhh",
+  bio: "",
+  posts: 0,
+  followers: 82,
+  following: 774,
+  isPrivate: true,
+
+  links: {
+    threads: "@iram.fatima"
+  }
+};
+
+console.log(instagramProfile);
