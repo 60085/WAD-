@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let score = prompt("Enter student score (0 - 100):");
+        score = Number(score);
+
+        let grade;
+
+        if (score >= 90) {
+            grade = "A";
+        } else if (score >= 80) {
+            grade = "B";
+        } else if (score >= 70) {
+            grade = "C";
+        } else if (score >= 60) {
+            grade = "D";
+        } else {
+            grade = "F";
+        }
+
+        alert("Student Score: " + score + " → Grade: " + grade);
+
+
+
+    </script>
+</body>
+</html>
+#js 
+const Product = {
+  id: 1,
+  name: "Mobile Phone",
+  price: 25000,
+  inStock: true
+};
+
+console.log(Product);
