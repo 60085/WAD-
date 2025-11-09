@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="program.css">
+</head>
+<body>
+    <div class="register">
+        <h1>Login</h1>
+        <form>
+             <label for="email">Email</label>
+            <input type="email" placeholder="email" ><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="password" ><br>
+
+            <button type="submit">Login</button><br>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p><br>
+
+        </form>
+    </div>
+</body>
+</html>
+
+#CSS
+body { 
+    font-family: Arial ;
+    background-color: rgba(150, 172, 175, 0.904);
+     justify-content: center;
+    align-items: center;
+   
+}
+.register{
+
+    background-color: rgb(100, 90, 146);
+   width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+
+}
+h1{
+    
+    color: rgb(198, 201, 10);
+}
+label{
+    font-style: italic ;
+    color: yellow;
+    
+    
+}
+input{
+
+    font-style: italic;
+    
+}
+button{
+
+    font-style: oblique;
+    color: rgb(32, 70, 194);
+}
+
+a{
+
+    font-style: italic;
+    color: yellow;
+}
+
+signup.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="program.css">
+</head>
+<body>
+    <div class="register">
+        <h1>SIGN UP</h1>
+       <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name"><br><br>
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Password</label>
+        <input type="password" placeholder="Create a password"><br><br>
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Re-Enter your password"><br><br>
+
+        <button type="submit">Sign Up</button>
+        <p>Already have an account? <a href="login.html">Login</a></p><br>
+       </form> 
+        
+    </div>
+</body>
+</html>
