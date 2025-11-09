@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p class="oldClass">Hello My name is tasveeb </p>
+
+
+     <script src="lab.js"></script>
+
+
+</body>
+</html>
+#js 
+
+ let para = document.querySelector(".oldClass");
+    console.log("Old Class:", para.className);
+    para.className = "newClass";
+    console.log("New Class:", para.className);
+
+
+    let btn = document.createElement("button");
+    btn.textContent = "Log In";
+    btn.style.backgroundColor = "blue";
+    btn.style.color = "white";
+    document.documentElement.insertBefore(btn, document.body);
+
+
+
+   
