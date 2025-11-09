@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+  <h1 class="rainbow-heading">Riphah International University</h1>
+
+    <style>
+    .rainbow-heading {
+      font-size: 48px;
+      font-weight: bold;
+      text-align: center;
+      animation: rainbow 3s linear infinite;
+    }
+
+    @keyframes rainbow {
+      0%   { color: red; }
+      25%  { color: orange; }
+      50%  { color: green; }
+      75%  { color: blue; }
+      100% { color: purple; }
+    }
+  </style>
+</head>
+
+</body>
+</html>
