@@ -1,0 +1,6 @@
+let softwareHouses = ["AI", "air", "ptcl", "It", "tech"];
+softwareHouses.shift();  
+
+softwareHouses[2] = "system limited";        
+softwareHouses.push("HCL");           
+console.log(softwareHouses);
