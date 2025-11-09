@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div class="form">
+    <h2>Register</h2>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Create password" required>
+
+      <label for="address">Address</label>
+      <textarea id="address" rows="3" placeholder="Enter your address"></textarea>
+
+      <label>Gender</label>
+      <div class="gender-options">
+        <label><input type="checkbox" > Male</label>
+        <label><input type="checkbox"> Female</label>
+        <label><input type="checkbox"> Other</label>
+      </div>
+
+      <button type="submit" class="register-btn">Register</button>
+    </form>
+  </div>
+
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form {
+      background-color: white;
+      padding: 35px;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      width: 350px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      text-align: center;
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+      transition: border 0.3s, box-shadow 0.3s;
+    }
+
+    .gender-options {
+      display: flex;
+      gap: 15px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+    }
+
+    .gender-options label {
+      font-weight: normal;
+    }
+
+    .register-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #ff7f50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+     
+     
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .register-btn:hover {
+      background-color: #e65c35;
+      transform: scale(1.05);
+    }
+  </style>
+
+</body>
+</html>
