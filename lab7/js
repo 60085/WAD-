@@ -1,0 +1,8 @@
+let numbers = [10, 15, 22, 33, 40, 55, 60];
+
+console.log("Even numbers are:");
+for (let num of numbers) {
+  if (num % 2 === 0) {
+    console.log(num);
+  }
+}
